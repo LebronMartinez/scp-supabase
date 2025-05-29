@@ -1,0 +1,10 @@
+.home {
+  text-align: center;
+  padding: 2rem;
+}
+
+.home-logo {
+  width: 120px;
+  margin-bottom: 1rem;
+  filter: drop-shadow(0 0 8px red);
+}
