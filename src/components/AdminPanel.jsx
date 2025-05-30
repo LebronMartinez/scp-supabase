@@ -8,7 +8,7 @@ function AdminPanel() {
   });
   const [editRecord, setEditRecord] = useState(null);
 
-  // Helper function to sort items by SCP number
+  // this sorts it properly
   const sortByScpNumber = (data) => {
     return data.sort((a, b) => {
       const numA = parseInt(a.item.replace(/\D/g, ''));

@@ -14,8 +14,6 @@ function NavMenu() {
         console.error('Error fetching items:', error);
         return;
       }
-
-      
       const sorted = data.sort((a, b) => {
         const numA = parseInt(a.item.match(/\d+/));
         const numB = parseInt(b.item.match(/\d+/));
